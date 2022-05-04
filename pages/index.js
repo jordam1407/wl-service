@@ -96,8 +96,8 @@ function gravarClientes() {
       <div className={styles.bgimage}></div>
       <div className={styles.box}>
         <Head>
-          <title>Helluz WL service</title>
-          <meta name="description" content="Landing Page" />
+          <title>Ultimate Team WL service</title>
+          <meta name="description" content="We  do your FUT CHAMPIONS WL games, get more fifa coins and Packs, without the stress of playing WL" />
         </Head>
 
 
