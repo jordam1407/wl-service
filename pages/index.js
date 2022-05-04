@@ -191,13 +191,13 @@ function gravarClientes() {
             <form className={styles.input} onSubmit={handleSubmit}>
 
               <label htmlFor="name"></label>
-              <input className={styles.retangulo1} autocomplete= "off" type="text" id="name" name="name" placeholder='Full Name' onChange={event => setNome(event.target.value)} required />
+              <input className={styles.retangulo1} autoComplete= "off" type="text" id="name" name="name" placeholder='Full Name' onChange={event => setNome(event.target.value)} required />
 
               <label htmlFor="email"></label>
-              <input className={styles.retangulo}autocomplete= "off" type="email" id="email" name="email" placeholder='Email' onChange={event => setEmail(event.target.value)} required />
+              <input className={styles.retangulo}autoComplete= "off" type="email" id="email" name="email" placeholder='Email' onChange={event => setEmail(event.target.value)} required />
 
               <label htmlFor="social"></label>
-              <input className={styles.retangulo2}autocomplete= "off" type="text" id="social" name="social" placeholder='Facebook, Instagam, WhatsApp' onChange={event => setSocial(event.target.value)} required />
+              <input className={styles.retangulo2}autoComplete= "off" type="text" id="social" name="social" placeholder='Facebook, Instagam, WhatsApp' onChange={event => setSocial(event.target.value)} required />
               
 
               <div className={styles.plat}>
