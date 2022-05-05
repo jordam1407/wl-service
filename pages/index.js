@@ -93,12 +93,7 @@ function gravarClientes() {
 
 
     <div className={styles.landing}>
-         <Image className={styles.bgbox}
-        src='/images/fundoAzul.png'
-        layout='fill'
-        objectFit='cover'
-        objectPosition='center'
-        />
+
       
         <Head>
           <title>Ultimate Team WL service</title>
