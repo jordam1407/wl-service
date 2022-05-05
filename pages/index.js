@@ -106,6 +106,13 @@ function gravarClientes() {
         </Head>
 
         <div className={styles.box}>
+        <Image className={styles.bgbox}
+        src='/images/fundoAzul.png'
+        layout='fill'
+        objectFit='cover'
+        objectPosition='center'
+      
+        />
         <div className={styles.title}>
           WL SERVICE
           <br></br><a>WE PLAY FOR YOU</a>
