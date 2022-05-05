@@ -93,14 +93,19 @@ function gravarClientes() {
 
 
     <div className={styles.landing}>
-      <div className={styles.bgimage}></div>
-      <div className={styles.box}>
+         <Image className={styles.bgbox}
+        src='/images/fundoAzul.png'
+        layout='fill'
+        objectFit='cover'
+        objectPosition='center'
+        />
+      
         <Head>
           <title>Ultimate Team WL service</title>
           <meta name="description" content="We  do your FUT CHAMPIONS WL games, get more fifa coins and Packs, without the stress of playing WL" />
         </Head>
 
-
+        <div className={styles.box}>
         <div className={styles.title}>
           WL SERVICE
           <br></br><a>WE PLAY FOR YOU</a>
