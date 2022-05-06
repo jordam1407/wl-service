@@ -41,7 +41,7 @@
     text-align: center;
     margin: 0;
     line-height: 1.15;
-    font-size: 6.5vw;
+    font-size: 5.5vw;
   }  
 }
 
@@ -97,8 +97,8 @@
   .fifa{
     width: 18%;
     position: absolute;
-    right: 1.6%;
-    top: 13.2vw
+    left: 1.6%;
+    top:5vw
   }  
 }
 
@@ -140,7 +140,7 @@
 @media only screen and (max-width: 600px) {
   .chamada{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2.3vw;
+    font-size: 1.9vw;
     top: 17vw;
   }  
 }
@@ -159,7 +159,7 @@
 @media only screen and (max-width: 600px) {
   .chamada2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2.3vw;
+    font-size: 1.9vw;
     top: 24.5vw;
   }  
 }
@@ -178,7 +178,7 @@
 @media only screen and (max-width: 600px) {
   .chamada3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2.3vw;
+    font-size: 1.9vw;
     top: 32vw;
   }  
 }
@@ -237,7 +237,7 @@
 @media only screen and (max-width: 600px) {
   .boxA{
     width: 22vw;
-    height: 29.5vw;
+    height: 31.5vw;
     left: 4%;
     top: 65vw;
   }  
@@ -257,7 +257,7 @@
 @media only screen and (max-width: 600px) {
   .boxB{
     width: 22vw;
-    height: 29.5vw;
+    height: 31.5vw;
     left: 36.3%;
     top: 65vw;
   }  
@@ -277,7 +277,7 @@
 @media only screen and (max-width: 600px) {
   .boxC{
     width: 22vw;
-    height: 29.5vw;
+    height: 31.5vw;
     right: 4%;
     top: 65vw;
   }  
@@ -411,7 +411,7 @@
   .star{
     font-size: 1.2vw;
     line-height: 1.1;
-    top: 94.5vw;
+    top: 96.5vw;
     left: 4%
   }  
 }
@@ -430,8 +430,8 @@
 @media only screen and (max-width: 600px) {
   .book{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 5vw;
-    top: 38vw;
+    font-size: 3vw;
+    top: 44vw;
   }  
 }
 
@@ -457,7 +457,7 @@
       height: 44vw;
       left: 30.5%;
       right: 30.5%;
-      top: 119.5vw;
+      top: 115.5vw;
     }  
   }
   
@@ -616,7 +616,7 @@
 }
 @media only screen and (max-width: 600px) {
   .contato{
-    top: 169vw;
+    top: 162vw;
   }  
 }
 
