@@ -106,6 +106,7 @@ function gravarClientes() {
         layout='fill'
         objectFit='cover'
         objectPosition='center'
+        alt
       
         />
         <div className={styles.title}>
@@ -115,7 +116,7 @@ function gravarClientes() {
 
         <div className={styles.meio}>
 
-          <img className={styles.layout} src='../images/fundoRosa.png' />
+          <img className={styles.layout} src='../images/fundoRosa.jpg' />
           <img className={styles.borda} src='../images/lateral.png' />
           <img className={styles.fifa} src='../images/fifa.png' />
           <img className={styles.logo1} src='../images/wl.png' />
@@ -209,10 +210,10 @@ function gravarClientes() {
 
               <div className={styles.plat}>
                 <label htmlFor="plat"></label>
-                <input type="radio" value="Playstation" name="plat" onChange={event => setPlat(event.target.value)} required /> Playstation<br></br>
+                <input type="radio" className={styles.radio} value="Playstation" name="plat" onChange={event => setPlat(event.target.value)} required /> Playstation<br></br>
 
                 <label htmlFor="plat"></label>
-                <input type="radio" value="Xbox" name="plat" onChange={event => setPlat(event.target.value)} required /> Xbox
+                <input type="radio" className={styles.radio} value="Xbox" name="plat" onChange={event => setPlat(event.target.value)} required /> Xbox
               </div>
               <button className={styles.submit} type="submit">BOOK NOW</button>
             </form>

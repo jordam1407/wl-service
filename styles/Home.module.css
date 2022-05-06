@@ -10,6 +10,8 @@
   background-color: #E8F4EA;
 }
 
+
+
 .title a {
   color: #FA5E00;
   text-decoration: none;
@@ -25,7 +27,19 @@
   color: #022B3A;
   text-shadow: 0.5px 1px 2px grey;
   position: relative;
+  top:2vw;
 }
+@media only screen and (max-width: 600px) {
+  .title{
+    font-family: "Italiana";
+    font-weight:bolder;
+    text-align: center;
+    margin: 0;
+    line-height: 1.15;
+    font-size: 6.5vw;
+  }  
+}
+
 
 .title,
 .description {
@@ -35,13 +49,9 @@
 .box {
   width: 80%;
   height: 142vw;
-  background-image: url('../public/images/fundoAzul.png');
   position: relative;
   box-shadow: 1px 1px 15px grey;
   min-height: 100vh;
-
-
-
 }
 
 .logo1 {
@@ -50,13 +60,20 @@
   right: 22%;
   top: 1.8vw;
 }
+@media only screen and (max-width: 600px) {
+  .logo1{
+    width: 12%;
+    position: absolute;
+    right: 4%;
+    top: 2vw;
+  }  
+}
 
 .layout {
   width: 100%;
   position: relative;
-  top: 20%;
+  top: 3.4vw;
   min-height: 100%;
-
 }
 
 
@@ -64,7 +81,15 @@
   width: 22%;
   position: absolute;
   right: 0%;
-  top: 2vw
+  top: 2.2vw
+}
+@media only screen and (max-width: 600px) {
+  .fifa{
+    width: 18%;
+    position: absolute;
+    right: 1.6%;
+    top: 13.2vw
+  }  
 }
 
 .borda {
@@ -80,43 +105,69 @@
   width: 70vw;
   position: absolute;
   left: 5%;
-  top: 34.5vw;
+  top: 34.8vw;
+}
+@media only screen and (max-width: 600px) {
+  .seta{
+    width: 70vw;
+    position: absolute;
+    left: 5%;
+    top: 42.8vw;
+  }  
 }
 
 .chamada {
   font-family: 'Belleza';
-  left: 50%;
+  left: 48%;
   line-height: 1.15;
-  font-size: 1.5vw;
+  font-size: 2vw;
   text-align: left;
   color: #022B3A;
   position: absolute;
-  top: 11vw;
+  top: 12vw;
   text-shadow: 0.5px 1px 3px grey;
+}
+@media only screen and (max-width: 600px) {
+  .chamada{
+    font-size: 2.6vw;
+    top: 17vw;
+  }  
 }
 
 .chamada2 {
   font-family: 'Belleza';
-  left: 50%;
+  left: 48%;
   line-height: 1.15;
-  font-size: 1.5vw;
+  font-size: 2vw;
   text-align: left;
   color: #022B3A;
   position: absolute;
-  top: 16.6vw;
+  top: 18.6vw;
   text-shadow: 0.5px 1px 3px grey;
+}
+@media only screen and (max-width: 600px) {
+  .chamada2{
+    font-size: 2.6vw;
+    top: 24.5vw;
+  }  
 }
 
 .chamada3 {
   font-family: 'Belleza';
-  left: 50%;
+  left: 48%;
   line-height: 1.15;
-  font-size: 1.5vw;
+  font-size:  2vw;
   text-align: left;
   color: #022B3A;
   position: absolute;
-  top: 22vw;
+  top: 25.2vw;
   text-shadow: 0.5px 1px 3px grey;
+}
+@media only screen and (max-width: 600px) {
+  .chamada3{
+    font-size: 2.6vw;
+    top: 32vw;
+  }  
 }
 
 .chamada a {
@@ -146,6 +197,12 @@
   top: 5.5vw;
   text-shadow: 0.5px 1px 3px grey;
 }
+@media only screen and (max-width: 600px) {
+  .best{
+    font-size: 5.5vw;
+    top: 6.2vw;
+  }  
+}
 
 .best a {
   color: #FA5E00;
@@ -162,7 +219,14 @@
   background: rgb(254, 223, 192);
   border-radius: 5px;
   box-shadow: 1px 1px 5px grey;
-
+}
+@media only screen and (max-width: 600px) {
+  .boxA{
+    width: 22vw;
+    height: 27.5vw;
+    left: 4%;
+    top: 65vw;
+  }  
 }
 
 .boxB {
@@ -176,6 +240,14 @@
   border-radius: 5px;
   box-shadow: 1px 1px 5px grey;
 }
+@media only screen and (max-width: 600px) {
+  .boxB{
+    width: 22vw;
+    height: 27.5vw;
+    left: 36.3%;
+    top: 65vw;
+  }  
+}
 
 .boxC {
   position: absolute;
@@ -188,45 +260,67 @@
   border-radius: 5px;
   box-shadow: 1px 1px 5px grey;
 }
+@media only screen and (max-width: 600px) {
+  .boxC{
+    width: 22vw;
+    height: 27.5vw;
+    right: 4%;
+    top: 65vw;
+  }  
+}
 
 
 .parA {
   font-family: 'Belleza';
   line-height: 1.2;
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   font-weight: bold;
   text-align: center;
   color: #022B3A;
   position: relative;
-  bottom: 2.7vw;
+  bottom: 2.5vw;
   text-shadow: 0.1px 0.1px 0.1px grey;
-
+}
+@media only screen and (max-width: 600px) {
+  .parA{
+    font-size: 1.9vw;
+  }  
 }
 
 .parB {
   font-family: 'Belleza';
   line-height: 1.2;
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   font-weight: bold;
   text-align: center;
   color: #022B3A;
   position: relative;
-  bottom: 2.7vw;
+  bottom: 2.5vw;
   text-shadow: 0.1px 0.1px 0.1px grey;
 
+}
+@media only screen and (max-width: 600px) {
+  .parB{
+    font-size: 1.9vw;
+  }  
 }
 
 .parC {
   font-family: 'Belleza';
   line-height: 1.2;
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   font-weight: bold;
   text-align: center;
   color: #022B3A;
   position: relative;
-  bottom: 2.7vw;
+  bottom: 2.5vw;
   text-shadow: 0.1px 0.1px 0.1px grey;
 
+}
+@media only screen and (max-width: 600px) {
+  .parC{
+    font-size: 1.9vw;
+  }  
 }
 
 .point {
@@ -240,6 +334,11 @@
   text-shadow: 1px 1px 2px grey;
 
 }
+@media only screen and (max-width: 600px) {
+  .point{
+    font-size: 2.5vw;
+  }  
+}
 
 .euro {
   line-height: normal;
@@ -250,8 +349,13 @@
   text-shadow: 0.5px 1px 2px grey;
   font-size: 2.5vw;
   position:relative;
-  bottom: 3.3vw;
+  bottom: 3.7vw;
   text-shadow: 1px 1px 2px grey;
+}
+@media only screen and (max-width: 600px) {
+  .euro{
+    font-size: 2.8vw;
+  }  
 }
 
 .aa{
@@ -262,8 +366,13 @@
   text-align: center;
   color: #022B3A;
   position: relative;
-  top: 2vw;
+  top: 1.1vw;
   text-shadow: 0.1px 0.1px 0.1px grey;
+}
+@media only screen and (max-width: 600px) {
+  .aa{
+    font-size: 1.9vw;
+  }  
 }
 
 .star{
@@ -274,10 +383,17 @@
   text-align: left;
   color: #022B3A;
   position: absolute;
-  top: 72.7vw;
+  top: 73vw;
   left: 8.8vw;
   opacity:80%;
-
+}
+@media only screen and (max-width: 600px) {
+  .star{
+    font-size: 1.2vw;
+    line-height: 1.1;
+    top: 92.5vw;
+    left: 4%
+  }  
 }
 
 .book {
@@ -291,6 +407,12 @@
   top: 35vw;
   text-shadow: 0.5px 1px 3px grey;
 }
+@media only screen and (max-width: 600px) {
+  .book{
+    font-size: 5.5vw;
+    top: 37vw;
+  }  
+}
 
 .book a {
   color: #FA5E00;
@@ -303,12 +425,20 @@
   height: 30.5vw;
   left: 34.5%;
   right: 34.5%;
-  top: 94.5vw;
-
-background: rgba(254, 223, 192);
-border-radius: 9px;
-box-shadow: 1px 1px 5px grey;
-}
+  top: 98.5vw;
+  background: rgba(254, 223, 192);
+  border-radius: 9px;
+  box-shadow: 1px 1px 5px grey;
+  }
+  @media only screen and (max-width: 600px) {
+    .input1{
+      height: 44vw;
+      left: 30.5%;
+      right: 30.5%;
+      top: 119.5vw;
+    }  
+  }
+  
 
 .input{
   position: relative;
@@ -319,7 +449,7 @@ box-shadow: 1px 1px 5px grey;
   
   font-family: 'Belleza';
   line-height: 1.4;
-  font-size: 1vw;
+  font-size: 1.3vw;
   font-weight: bold;
   text-align: center;
   color: #022B3A;
@@ -332,13 +462,20 @@ box-shadow: 1px 1px 5px grey;
   background: white;
   border-radius: 0.5vw;
   border: 1px solid #ccc;
+}
+@media only screen and (max-width: 600px) {
+  .retangulo2{
+    top:20vw;
+    height: 4.5vw;
+    font-size: 1.9vw;
 
+  }  
 }
 
 .retangulo1{
   font-family: 'Belleza';
   line-height: 1.4;
-  font-size: 1vw;
+  font-size: 1.3vw;
   font-weight: bold;
   text-align: center;
   color: #022B3A;
@@ -352,13 +489,20 @@ box-shadow: 1px 1px 5px grey;
   border-radius: 0.5vw;
   border: 1px solid #ccc;
 }
+@media only screen and (max-width: 600px) {
+  .retangulo1{
+    top:4vw;
+    height: 4.5vw;
+    font-size: 1.9vw;
+  }  
+}
 
 
 .retangulo{
   
   font-family: 'Belleza';
   line-height: 1.4;
-  font-size: 1vw;
+  font-size: 1.3vw;
   font-weight: bold;
   text-align: center;
   color: #022B3A;
@@ -372,6 +516,13 @@ box-shadow: 1px 1px 5px grey;
   border-radius: 0.5vw;
   border: 1px solid #ccc;
 
+}
+@media only screen and (max-width: 600px) {
+  .retangulo{
+    top:12vw;
+    height: 4.5vw;
+    font-size: 1.9vw;
+  }  
 }
 
 .submit{
@@ -391,6 +542,15 @@ box-shadow: 1px 1px 5px grey;
   border: 1px solid #ccc;
   cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+  .submit{
+    top:36vw;
+    left:9%;
+    right: 9%;
+    height: 5vw;
+    font-size: 2.5vw;
+  }  
+}
 
 .submit:hover {
   opacity: 0.90;
@@ -406,16 +566,38 @@ box-shadow: 1px 1px 5px grey;
   left: 13%;
   right: 13%;
   top: 15vw;
+}
+@media only screen and (max-width: 600px) {
+  .plat{
+    top: 25vw;
+    font-size: 2.5vw;
+  }  
+}
 
+.radio {
+  width: 20px;
+
+}
+@media only screen and (max-width: 600px) {
+  .radio{
+    width: 2vw;
+
+  }  
 }
 
 .contato{
   position: absolute;
-  bottom: 5vw;
+  top: 132vw;
   left: 5%;
   right: 5%;
   
 }
+@media only screen and (max-width: 600px) {
+  .contato{
+    top: 169vw;
+  }  
+}
+
 
 .social{
   max-height: 100%;
